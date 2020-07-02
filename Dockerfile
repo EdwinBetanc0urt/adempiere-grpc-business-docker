@@ -1,7 +1,7 @@
 FROM openjdk:8-jre-alpine
 
 LABEL maintainer="ysenih@erpya.com" \
-	description="ADempiere gRPC Acceser Server"
+	description="ADempiere gRPC Business Data Server"
 
 ENV URL_REPO="https://github.com/erpcya/adempiere-gRPC-Server" \
 	BASE_VERSION="rt-13.3" \
