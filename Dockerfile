@@ -23,4 +23,4 @@ COPY business_connection.yaml /opt/Apps/ADempiere-gRPC-Server/bin/business_conne
 
 WORKDIR /opt/Apps/ADempiere-gRPC-Server/bin/
 
-CMD 'sh' 'adempiere-business-server' 'business_connection.yaml'
+CMD 'sh' 'adempiere-businessdata-server' 'business_connection.yaml'
